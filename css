@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+li,h1,ul{
+    display:inline;
+}
+
+nav{
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    width:100%;
+    padding:10px;
+}
+ul{
+    margin-left:80%;
+}
+li{
+    color:gray;
+    cursor:pointer;
+}
+
+li:hover {
+    color:white;
+     
+}
+
+.photo{
+    width:300px;
+    border-color: black;
+    border-width:2px;
+    border-style:solid;
+    display:inline-block;
+    padding:10px;
+    margin-left: 70px;
+    margin-top: 60px; 
+}
+.photos{
+    text-align: center;
+    color:white;
+}
+.photo:hover{
+    background-color: black;
+    color:white;
+}
+ .contact {
+    text-align: center;
+    padding:20px;
+    margin-right:100px;
+    margin-top:50px;
+    color:white;
+            
+}
+body{
+    background:url(../img/bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.news {
+    margin-top:50px;
+    padding-left: 30px;
+    padding-right:30px;
+    color: white;
+}
+.form {
+    border-color: black;
+    border-width:2px;
+    border-style:solid;
+    margin:5% 10%;
+}
